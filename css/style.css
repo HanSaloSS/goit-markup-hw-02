@@ -22,8 +22,8 @@ color: #434455;
 .info:hover{
 color: #404BBF;
 }
-.info:active{
-color: #434455;
+.info:focus{
+color: #404BBF;
 }
 .studio{
     font-weight: 500;
@@ -36,7 +36,7 @@ color: #2E2F42;
 .studio:hover{
     color: #404bbf;
 }
-.studio:active{
+.studio:focus{
    color: #404bbf;
 }
 .order{
@@ -66,7 +66,7 @@ cursor: pointer;
 .ordserv:hover{
     background-color: #404BBF;
 }
-.ordserv:active{
+.ordserv:focus{
     background-color:#404BBF ;
 }
 .strat{
@@ -76,6 +76,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px; 
 letter-spacing: 0.4px;
+text-transform: capitalize;
 }
 .team{
     background-color: #F4F4FD;
@@ -109,7 +110,7 @@ letter-spacing: 0.32px;
 }
 .web1{
     color: var(--NAVY-BLUE, #2E2F42);
-font-family: Raleway;
+    font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -119,7 +120,7 @@ text-transform: uppercase;
 }
 .web{
     color: var(--CLOUD, #F4F4FD);
-font-family: Raleway;
+    font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -129,7 +130,7 @@ text-transform: uppercase;
 }
 .logo{
     color: var(--IRIS, #4D5AE5);
-font-family: Raleway;
+    font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -140,7 +141,7 @@ letter-spacing: 0.03em;
 }
 .logo1{
     color: var(--IRIS, #4D5AE5);
-font-family: Raleway;
+    font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -156,4 +157,15 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
+}
+.port{
+    background-color: #FFFFFF;
+}
+.foot{
+    background-color: #2e2f42;
+}
+.footp{
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
