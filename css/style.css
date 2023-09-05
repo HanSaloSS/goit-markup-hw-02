@@ -93,7 +93,7 @@ color: #2e2f42;
 text-transform: capitalize;
 }
 .teamli1{
-    background-color: WHITE;
+    background-color: #FFFFFF;
 }
 
 footer{
@@ -141,24 +141,14 @@ text-transform: uppercase;
 line-height: 1.17;
 letter-spacing: 0.03em;
 }
-.logo1{
-    color: var(--IRIS, #4D5AE5);
-    font-family: "Raleway", sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-text-decoration: none;
-text-transform: uppercase;
-line-height: 1.17;
-letter-spacing: 0.03em;
-}
+
 .par{
    color: #434455;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.5; /* 150% */
-letter-spacing: 0.02;
+letter-spacing: 0.02em;
 }
 .port{
     background-color: #FFFFFF;
